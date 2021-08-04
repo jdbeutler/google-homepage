@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'Product Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+}
+
 main {
   margin: 0;
   padding: 0;
@@ -26,26 +33,43 @@ header {
   width: 30%;
 }
 .topnavleft {
-  text-align: left;
-  padding: 0px;
+  float: left;
+  padding: 10px;
   background-color: white;
   color: white;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 17px;
 }
 .topnavright {
-  text-align: right;
+  float: right;
   padding: 0px;
   background-color: white;
   color: white;
+  font-family: "product sans";
 }
 .footer-left {
   text-align: left;
   padding: 10px;
   background-color: white;
   color: white;
+  font-family: "product sans";
 }
 .footer-right {
   text-align: right;
   padding: 0px;
   background-color: white;
   color: white;
+  font-family: "product sans";
+}
+button {
+  background-color: #1D81E4; /* Maybe Google Blue */
+  border: 10px;
+  color: white;
+  padding: 10px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
 }
