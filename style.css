@@ -1,0 +1,51 @@
+main {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+header {
+  width: 100%;
+}
+.google {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+.searchbar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+  width: 30%;
+}
+.searchbuttons {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+.topnavleft {
+  text-align: left;
+  padding: 0px;
+  background-color: white;
+  color: white;
+}
+.topnavright {
+  text-align: right;
+  padding: 0px;
+  background-color: white;
+  color: white;
+}
+.footer-left {
+  text-align: left;
+  padding: 10px;
+  background-color: white;
+  color: white;
+}
+.footer-right {
+  text-align: right;
+  padding: 0px;
+  background-color: white;
+  color: white;
+}
